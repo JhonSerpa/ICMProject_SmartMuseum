@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/exhibitions_list"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Exhibitions"/>
+        <item
+            android:id="@+id/near_me_list"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Near Me"/>
+        <item
+            android:id="@+id/museum_history"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Museum History"/>
+
+        <item
+            android:id="@+id/favoutites"
+            android:title="Favourites"/>
+
+        <item
+            android:id="@+id/settings_menu"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact us"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/sign_out"
+        android:title="Sign Out"></item>
+
+</menu>

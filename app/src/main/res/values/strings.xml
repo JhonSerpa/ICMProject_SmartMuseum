@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ICM-APP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="current_exhibition"><b><u>Current Exhibition</u></b></string>
+    <string name="current_exhibition_name">Da Vinci Wonders</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_record">AddRecord</string>
+    <string name="beaconsetting">Beacon Range</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_favourites">FavouritesActivity</string>
+</resources>

@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="icm.ua.pt.icm_app.fragments.SettingsFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp">
+   <TextView
+       android:id="@+id/beacon_setting_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/beaconsetting"
+       android:layout_marginLeft="20dp"
+       android:textColor="@color/white"/>
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/beacon_setting_text"
+        android:layout_marginRight="150dp"/>
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/start_button"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="Start Service"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/stop_button"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="Stop Service"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/fill_db_button"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="Fill DB"/>
+</LinearLayout>
+</LinearLayout>
+</FrameLayout>
